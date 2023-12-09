@@ -250,7 +250,7 @@ rf_classifier = RandomForestClassifier()
 
 param_grid = {
     'n_estimators': [100, 200],
-    'max_depth': [None, 10, 30],
+    'max_depth': [10, 30],
     'min_samples_split': [5, 10],
     'min_samples_leaf': [2, 4]
 }
