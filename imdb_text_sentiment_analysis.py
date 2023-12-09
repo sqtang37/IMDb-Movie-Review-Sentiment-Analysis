@@ -138,7 +138,6 @@ def filter_words(word_list, training_data):
     return filtered_words
 
 filtered_word_list = filter_words(sentiment_dict, data['processed_reviews'])
-print(filtered_word_list)
 
 def encode_text_vector(text_vector, word_list):
     # Tokenize input text vector
